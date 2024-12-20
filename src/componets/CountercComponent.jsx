@@ -1,7 +1,7 @@
 import { usCounter } from "../hooks/usCounter"
 
 
-export const CounterApp = () => {
+export const CounterComponent = () => {
 
     const{ counter, decrement, increment, reset}= usCounter(0)
 
